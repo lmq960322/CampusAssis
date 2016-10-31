@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xiaoyuanshenghuo"
+    android:gravity="center|center_vertical|right"
+    android:orientation="vertical"
+    android:paddingRight="20dp" >
+
+     <Button
+        android:id="@+id/campusBuild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="校区平面图
+                                " 
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/campusScenery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        android:textSize="24sp"
+        android:text="校园风景
+                            " />
+
+   
+
+    <Button
+        android:id="@+id/freshAssist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        android:textSize="24sp"
+        android:text="新生指南"
+                                />
+   
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        android:textSize="24sp"
+        android:text="返回" />
+
+</LinearLayout>
